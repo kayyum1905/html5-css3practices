@@ -17,6 +17,18 @@
   text-decoration: none;
 }
 
+.nav-bar{
+  float: right;
+}
+
+.game-div{
+  display: inline-block;
+  background-color: #eeecec;
+  width: 100%;
+  border: 1px 2px;
+  margin: 2px 4px;
+}
+
 li{
   list-style: none;
   display: inline;
