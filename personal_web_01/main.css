@@ -1,12 +1,10 @@
 .a-link{
-  list-style-type: none;
-  font-size: 28px;
-  background-color: yellow;
-  padding: 2px 2px;
+  font-size: 26px;
   text-align: center;
-  border: 2px solid black;
+  min-width: 35%;
   max-width: 150px;
-  margin: 2px 2px;
+  padding-right: 10px;
+  padding-left: 10px;
   color: black;
   text-decoration: none;
 }
@@ -21,12 +19,27 @@
   float: right;
 }
 
+.menu-bar{
+  list-style-type: none;
+  background-color: yellow;
+  border-bottom: solid black;
+  border-top: solid black;
+  border-radius: 4px;
+  align-items: center;
+}
+
 .game-div{
   display: inline-block;
   background-color: #eeecec;
   width: 100%;
   border: 1px 2px;
   margin: 2px 4px;
+}
+
+.body1-div{
+  background-color: blue;
+  border: solid;
+  height: 20px;
 }
 
 h2{
