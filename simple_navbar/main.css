@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-list{
+  list-style-type: none;
+  background-color: #027b93;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.navbar-list li{
+  display: inline;
+}
+
+.navbar-list li a{
+  padding: 5px;
+  color: white;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar-list li a:hover{
+  background-color: #345;
+}
